@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width; initial-scale=1.0">
+        <link rel="stylesheet" href="calculadora.css">
+        <script src="calculadora.js"></script>
+        <title>Calculadora de Delta</title>
+
+     </head>
+
+        <body>
+            <form>
+
+             <fieldset>
+
+              <div id="conteudo">
+
+                <div align = "center">
+
+            <h1>Lan house raiz FJ</h1> 
+        
+            <img src="imagens/logo.jpg" alt="some text" width=300 height=200>
+            <img src="imagens/log2.jpg" alt="some text" width=300 height=200>
+            <img src="imagens/log1.jpg" alt="some text" width=300 height=200>
+            <p> Valor mínimo de horas são: 10 reais</p>
+            <p> Que tal você jogar bebendo aquele refri ou comendo aquele petisto? </p>
+            <h4>Confira nossos preços abaixo:</h4>
+             </div>
+
+                <form>
+
+                <fieldset>
+
+                    <legend>Horas</legend>
+
+                    <input type="radio" id="10" name="preços" value="1">
+                    <label for="10"> 1hr (R$ 10,00)</label>
+                    <input type="radio" id="JotaroKujo" name="pessoa" value="J">
+                    <label for="JotaroKujo"> 2hr (R$ 20,00)</label>
+                    <input type="radio" id="DioBrando" name="pessoa" value="D">
+                    <label for="DioBrando">  3hr (R$ 30,00)</label>
+                    <input type="radio" id="JotaroKujo" name="pessoa" value="J">
+                    <label for="JotaroKujo">  4hr (R$ 40,00)</label>
+                    <input type="radio" id="DioBrando" name="pessoa" value="D">
+                    <label for="DioBrando"> 5hr (R$ 50,00)</label>
+        
+                    </fieldset>
+
+                     </form>
+
+                <form>
+
+                     <fieldset>
+
+                    <legend>Porções</legend>
+
+                    <input type="radio" id="frango" name="preços" value="1">
+                    <label for="frango"> 10 tiras de frango (R$ 30,00)</label>
+                    <input type="radio" id="peixe" name="pessoa" value="J">
+                    <label for="peixe"> 15 iscas de peixe (R$ 40,00)</label>
+                    <input type="radio" id="batata" name="pessoa" value="D">
+                    <label for="batata"> Aipim + batata + carne de sol (R$ 60,00)</label>
+                    <input type="radio" id="torresmo" name="pessoa" value="J">
+                    <label for="torresmo"> Porção de torresminho (R$ 15,00)</label>
+                    <input type="radio" id="pastel" name="pessoa" value="D">
+                    <label for="pastel"> 10 mini pasteis de camarão (R$ 35,00)</label>
+        
+                    </fieldset>
+
+                    </form>
+
+                <form>
+
+                     <fieldset>
+
+                    <legend> Guloseimas</legend>
+
+                    <input type="radio" id="fini" name="preços" value="1">
+                    <label for="fini"> Fini (R$ 5,00)</label>
+                    <input type="radio" id="paçoca" name="pessoa" value="J">
+                    <label for="paçoca"> Paçoca (R$ 1,00)</label>
+                    <input type="radio" id="amendin" name="pessoa" value="D">
+                    <label for="amendin">  Amendoin (R$ 1,00)</label>
+                    <input type="radio" id="balla" name="pessoa" value="J">
+                    <label for="balla">  bala-halls preta (R$ 2,00)</label>
+                    <input type="radio" id="bananada" name="pessoa" value="D">
+                    <label for="bananada"> Bananada (R$ 0,50)</label>
+        
+                    </fieldset>
+
+                     </form>
+
+                <form>
+
+                     <fieldset>
+
+                    <legend>Cervejas</legend>
+
+                    <input type="radio" id="bud" name="preços" value="1">
+                    <label for="bud"> Budweiser (R$ 10,00)</label>
+                    <input type="radio" id="corona" name="pessoa" value="J">
+                    <label for="corona"> Corona (R$ 10,00)</label>
+                    <input type="radio" id="heineken" name="pessoa" value="D">
+                    <label for="heineken">  Heineken (R$ 10,00)</label>
+                    <input type="radio" id="stella" name="pessoa" value="J">
+                    <label for="stella">  Stella (R$ 10,00)</label>
+                    <input type="radio" id="brahma" name="pessoa" value="D">
+                    <label for="brahma"> Brahma duplo malte (R$ 10,00)</label>
+        
+                     </fieldset>
+
+                    </form>
+
+                <form>
+
+                     <fieldset>
+
+                    <legend>Refrigerantes</legend>
+
+                    <input type="radio" id="coca" name="preços" value="1">
+                    <label for="coca"> Coca-cola 2L (R$ 10,00)</label>
+                    <input type="radio" id="kuat" name="pessoa" value="J">
+                    <label for="kuat"> Kuat lata (R$ 4,00)</label>
+                    <input type="radio" id="fanta-laranja" name="pessoa" value="D">
+                    <label for="fanta-laranja"> Fanta-laranja lata (R$ 4,00)</label>
+                    <input type="radio" id="guarana" name="pessoa" value="J">
+                    <label for="guarana"> Guaraná-Antarctica 2L (R$ 8,00)</label>
+                    <input type="radio" id="dolly" name="pessoa" value="D">
+                    <label for="dolly"> Dolly 2L (R$ 6,00)</label>
+        
+                 </fieldset>
+
+                 </form>
+
+             </p>
+
+             <div align = "center">
+                     
+         <p><input type="button" value="Calcular Pedido"
+         onclick="calcularDelta()">
+          
+         <p>
+             Todos os direitos reservados para:
+         </p>
+            <h5>Felipe Glutier</h5>
+             <h5> Jacydabel Aguiar</h5>
+
+        </div>
+    </body>
+
+</html>
