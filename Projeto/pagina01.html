@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width; initial-scale=1.0">
+        <link rel="stylesheet" href="./pagina01.css">
+        <script src="./script1.js"></script>
+        <title>AP1</title>
+
+     </head>
+
+        <body>
+            <form name="formulario" method="get">
+
+             <fieldset>
+
+              <div id="conteudo">
+
+                <div align = "center">
+
+            <h1>LAN HOUSE RAIZ FJ</h1> 
+        
+            <img src="imagens/logo.jpg" alt="some text" width=300 height=200>
+            <img src="imagens/log2.jpg" alt="some text" width=300 height=200>
+            <img src="imagens/log1.jpg" alt="some text" width=300 height=200>
+            <p> Valor mínimo de horas são: 10 reais</p>
+            <p>Que tal você jogar bebendo aquele refri?</p>
+            <p>Comendo aquele petisco?</p>
+            <p>Tomando aquela gelada? </p>
+            <p>Comendo nossas deliciosas guloseimas?</p>
+
+            <h4>Aqui você pode</h4>
+            <h3>Confira nossos preços abaixo:</h3>
+             </div>
+
+
+                <fieldset>
+
+                    <legend>Horas</legend>
+
+                    <input type="radio" id="10" name="hora" value="1">
+                    <label for="10"> 1hr (R$ 10,00)</label>
+                    <input type="radio" id="JotaroKujo" name="hora" value="J">
+                    <label for="JotaroKujo"> 2hr (R$ 20,00)</label>
+                    <input type="radio" id="DioBrando" name="hora" value="D">
+                    <label for="DioBrando">  3hr (R$ 30,00)</label>
+                    <input type="radio" id="JotaroKujo" name="hora" value="J">
+                    <label for="JotaroKujo">  4hr (R$ 40,00)</label>
+                    <input type="radio" id="DioBrando" name="hora" value="D">
+                    <label for="DioBrando"> 5hr (R$ 50,00)</label>
+        
+                    </fieldset>
+
+
+                     <fieldset>
+
+                    <legend>Porções</legend>
+
+                    <input type="radio" id="frango" name="porcao" value="1">
+                    <label for="frango"> 10 tiras de frango (R$ 30,00)</label>
+                    <input type="radio" id="peixe" name="porcao" value="J">
+                    <label for="peixe"> 15 iscas de peixe (R$ 40,00)</label>
+                    <input type="radio" id="batata" name="porcao" value="D">
+                    <label for="batata"> Aipim + batata + carne de sol (R$ 60,00)</label>
+                    <input type="radio" id="torresmo" name="porcao" value="J">
+                    <label for="torresmo"> Porção de torresminho (R$ 15,00)</label>
+                    <input type="radio" id="pastel" name="porcao" value="D">
+                    <label for="pastel"> 10 mini pasteis de camarão (R$ 35,00)</label>
+        
+                    </fieldset>
+
+
+                     <fieldset>
+
+                    <legend> Guloseimas</legend>
+
+                    <input type="radio" id="fini" name="precos" value="1">
+                    <label for="fini"> Fini (R$ 5,00)</label>
+                    <input type="radio" id="paçoca" name="precos" value="J">
+                    <label for="paçoca"> Paçoca (R$ 1,00)</label>
+                    <input type="radio" id="amendin" name="precos" value="D">
+                    <label for="amendin">  Amendoin (R$ 1,00)</label>
+                    <input type="radio" id="balla" name="precos" value="J">
+                    <label for="balla">  bala-halls preta (R$ 2,00)</label>
+                    <input type="radio" id="bananada" name="precos" value="D">
+                    <label for="bananada"> Bananada (R$ 0,50)</label>
+        
+                    </fieldset>
+
+
+                     <fieldset>
+
+                    <legend>Cervejas</legend>
+
+                    <input type="radio" id="bud" name="cerveja" value="1">
+                    <label for="bud"> Budweiser (R$ 10,00)</label>
+                    <input type="radio" id="corona" name="cerveja" value="J">
+                    <label for="corona"> Corona (R$ 10,00)</label>
+                    <input type="radio" id="heineken" name="cerveja" value="D">
+                    <label for="heineken">  Heineken (R$ 10,00)</label>
+                    <input type="radio" id="stella" name="cerveja" value="J">
+                    <label for="stella">  Stella (R$ 10,00)</label>
+                    <input type="radio" id="brahma" name="cerveja" value="D">
+                    <label for="brahma"> Brahma duplo malte (R$ 10,00)</label>
+        
+                     </fieldset>
+
+
+                     <fieldset>
+
+                    <legend>Refrigerantes</legend>
+
+                    <input type="radio" id="coca" name="pessoa" value="1">
+                    <label for="coca"> Coca-cola 2L (R$ 10,00)</label>
+                    <input type="radio" id="kuat" name="pessoa" value="J">
+                    <label for="kuat"> Kuat lata (R$ 4,00)</label>
+                    <input type="radio" id="fanta-laranja" name="pessoa" value="D">
+                    <label for="fanta-laranja"> Fanta-laranja lata (R$ 4,00)</label>
+                    <input type="radio" id="guarana" name="pessoa" value="J">
+                    <label for="guarana"> Guaraná-Antarctica 2L (R$ 8,00)</label>
+                    <input type="radio" id="dolly" name="pessoa" value="D">
+                    <label for="dolly"> Dolly 2L (R$ 6,00)</label>
+        
+                 </fieldset>
+
+                 </form>
+
+             </p>
+
+             <div style="text-align: center;">
+                     
+         <p>
+            <a href="./pagina02.html" target="_blank" rel="noopener noreferrer">
+                <input type="button" value="Calcular Pedido"
+                onclick="calcular(), resultado()"></a>
+         </p>
+          
+         <br>
+         <hr>
+         <br>
+
+         <h2>
+             Todos os direitos reservados para:
+         </h2>
+            <h5>Felipe Glutier</h5>
+            <h5> Jacydabel Aguiar</h5>
+            <h5>Graziela Nascimento</h5>
+
+        </div>
+    </body>
+</html>
